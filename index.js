@@ -1,17 +1,16 @@
 module.exports = function(str, len, ch) {
-  str = String(str);
+    str = String(str);
 
-  if (!ch && ch !== 0) ch = ' ';
+    if (!ch && ch !== 0) ch = ' ';
 
-  len = len - str.length;
+    len = len - str.length;
 
-  return addCharsLg(str, len, ch);
+    var pad = ch;
+    while (pad.length * 2 <= len) {
+        pad += pad;
+    }
+    if (len % 2 == 1) {
+        pad += ch;
+    }
+    return pad + str;
 };
-
-function addCharsLg(str, len, ch) {
-  if (len % 2 === 1) return ch + addCharsLg(str, len - 1, ch);
-
-  if (len >= 2) return addCharsLg(str, len / 2, ch + ch);
-
-  return str;
-}
