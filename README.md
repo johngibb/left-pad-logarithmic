@@ -23,7 +23,8 @@ leftpad('foobar', 6)
 
 leftpad(1, 2, 0)
 // => "01"
-```
 
 leftpad('foo', 15)
 // => "            foo"
+
+```
