@@ -1,6 +1,6 @@
 {
   "name": "left-pad-logarithmic",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "String left pad, logarthimic time",
   "main": "index.js",
   "scripts": {

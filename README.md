@@ -1,4 +1,4 @@
-## left-pad
+## Summary
 
 String left pad.
 
