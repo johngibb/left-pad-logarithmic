@@ -1,7 +1,7 @@
 {
   "name": "left-pad-logarithmic",
-  "version": "1.0.1",
-  "description": "String left pad",
+  "version": "1.0.2",
+  "description": "String left pad, logarthimic time",
   "main": "index.js",
   "scripts": {
     "test": "node test"
@@ -17,9 +17,9 @@
     "string"
   ],
   "repository": {
-    "url": "git@github.com:azer/left-pad.git",
+    "url": "git@github.com:drshaffopolis/left-pad-logarithmic.git",
     "type": "git"
   },
-  "author": "azer",
-  "license": "WTFPL"
+  "author": "Chris Shaffer",
+  "license": "MIT"
 }
