@@ -1,13 +1,14 @@
 {
   "name": "left-pad-logarithmic",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "String left pad, logarthimic time",
   "main": "index.js",
   "scripts": {
     "test": "node test"
   },
   "devDependencies": {
-    "tape": "*"
+    "tape": "*",
+    "left-pad": "0.0.3"
   },
   "keywords": [
     "leftpad",
