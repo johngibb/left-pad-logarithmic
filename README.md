@@ -2,18 +2,18 @@
 
 String left pad.
 
-P.S: [I've unpublished it from NPM.](https://medium.com/@azerbike/i-ve-just-liberated-my-modules-9045c06be67c#.b6xzn8r6w)
+This behaves exactly like the famed left-pad, but it runs in O(lg n). Useful for left-padding in larger, web-scale situations.
 
 ## Install
 
 ```bash
-$ npm install azer/left-pad
+$ npm install left-pad-logarithmic
 ```
 
 ## Usage
 
 ```js
-leftpad = require('left-pad')
+leftpad = require('left-pad-logarithmic')
 
 leftpad('foo', 5)
 // => "  foo"
@@ -24,3 +24,6 @@ leftpad('foobar', 6)
 leftpad(1, 2, 0)
 // => "01"
 ```
+
+leftpad('foo', 15)
+// => "            foo"
